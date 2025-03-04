@@ -1,0 +1,2 @@
+stack group create --name demoStack3 --resource-group denycheckrg --template-file D:\learning\Azure-Terraform\deploymentstack\deploystack.bicep --action-on-unmanage detachAll --deny-settings-mode denyDelete
+az deployment group create --resource-group denycheckrg --template-file D:\learning\Azure-Terraform\deploymentstack\deploystack.bicep --parameters resourceGroupName=denycheckrg location=southeastasia
