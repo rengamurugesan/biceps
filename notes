@@ -1,2 +1,8 @@
 stack group create --name demoStack3 --resource-group denycheckrg --template-file D:\learning\Azure-Terraform\deploymentstack\deploystack.bicep --action-on-unmanage detachAll --deny-settings-mode denyDelete
 az deployment group create --resource-group denycheckrg --template-file D:\learning\Azure-Terraform\deploymentstack\deploystack.bicep --parameters resourceGroupName=denycheckrg location=southeastasia
+
+action
+
+https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-deny-action
+
+The denyAction effect is used to block requests based on intended action to resources at scale. The only supported action today is DELETE. This effect and action name helps prevent any accidental deletion of critical resources.
