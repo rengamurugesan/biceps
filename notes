@@ -3,7 +3,7 @@ az deployment group create --resource-group denycheckrg --template-file D:\learn
 
 
 az stack group create --name demoStack5 --resource-group denycheckrg --template-file "C:\Users\renga\Downloads\ExportedTemplate-denycheckrg-revised\template.json" --action-on-unmanage detachAll --deny-settings-mode denyWriteAndDelete --description "test description"
-
+ az stack group create --name demoStack5 --resource-group denycheckrg --template-file "C:\Users\renga\Downloads\ExportedTemplate-denycheckrg-revised\template.json" --action-on-unmanage detachAll --deny-settings-mode denyWriteAndDelete --description "test description"
 action
 
 https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-deny-action
