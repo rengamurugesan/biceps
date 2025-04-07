@@ -9,3 +9,5 @@ action
 https://learn.microsoft.com/en-us/azure/governance/policy/concepts/effect-deny-action
 
 The denyAction effect is used to block requests based on intended action to resources at scale. The only supported action today is DELETE. This effect and action name helps prevent any accidental deletion of critical resources.
+
+https://azure.github.io/azure-workload-identity/docs/code-of-conduct.html
